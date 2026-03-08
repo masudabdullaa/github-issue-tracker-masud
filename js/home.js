@@ -32,7 +32,8 @@ const displayIssue = (issues) => {
         cards.innerHTML = `
     <div class="rounded-lg p-3 shadow-lg space-y-5">
                 <div class="flex justify-between">
-                    <img class="w-[40px]" src="./assets/Open-Status.png" alt="">
+                <div>${issue.status == "open"? `<img class="w-[40px]" src="./assets/Open-Status.png" alt="">`: `<img src="./assets/Closed- Status .png" alt="">`}</div>
+                    
                     <button class="badge rounded-full py-4 px-5 bg-rose-200 font-bold text-rose-800">${issue.priority}</button>
                 </div>
                 <h2 class="font-bold text-xl">${issue.title}</h2>
