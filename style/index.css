@@ -5,3 +5,14 @@
 html {
     background-color: #F8FAFC;
 }
+
+.border-top-green {
+    border-top: 10px solid green;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.border-top-violet {
+    border-top: 10px solid violet;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
