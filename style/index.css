@@ -16,3 +16,15 @@ html {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
+.background-rose {
+    background-color: rgb(192, 165, 165);
+    color: rgb(146, 78, 78);
+}
+.background-orange {
+    background-color: rgb(247, 204, 126);
+    color: rgb(124, 82, 2);
+}
+.background-violet {
+    background-color: rgb(248, 213, 248);
+    color: rgb(153, 1, 153);
+}
